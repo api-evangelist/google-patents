@@ -64,5 +64,108 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Google Patents is a company surfaced via the API Evangelist harvest backlog (source: data) and added to the network as a stub for full-pipeline profiling.
-- https://patents.google.com/
+Google Patents is a free public search engine provided by Google that allows users to search the full text of patents and patent applications from around the world. It aggregates data from multiple patent offices, offering advanced search filters, citation analysis, and the ability to view legal status and family information. The service is accessible via a web interface and supports programmatic access through Google’s broader APIs ecosystem, enabling developers to integrate patent data into their applications for research, analytics, and intellectual property management.
+
+**Areas:** Company · Patents · Search · Intellectual-Property · Google
+
+## Google Patents on APIs.io
+
+Everything profiled for Google Patents is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/google-patents/](https://apis.io/providers/google-patents/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Google Patents API](https://apis.io/apis/google-patents/google-patents-api-2/) — Programmatic access to Google Patents data via Google APIs.
+- [Google Patents Repos API](https://apis.io/apis/google-patents/google-patents-repos-api/) — The Repos API from Google Patents — 1 operation(s) for repos.
+- [Google Patents V1Beta API](https://apis.io/apis/google-patents/google-patents-v1beta-api/) — The V1Beta API from Google Patents — 2 operation(s) for v1beta.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [PostV1BetaModelsGemini35FlashGeneratecontentRequest](https://apis.io/schemas/google-patents/google-patents-post-v1-beta-models-gemini35-flash-generatecontent-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Google Patents Context](https://apis.io/jsonld/google-patents/google-patents-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Google Patents API Rules](https://apis.io/rules/google-patents/google-patents-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Google Patents Domain Security](https://apis.io/security/google-patents/google-patents-domain-security/)
+- [Google Patents Vulnerability Disclosure](https://apis.io/security/google-patents/google-patents-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://patents.google.com/)
+- [Documentation](https://developers.google.com/)
+- [Security](https://accounts.google.com/ServiceLogin?hl=en-US&continue=https://myaccount.google.com/intro/security)
+- [Terms of service](https://policies.google.com/terms)
+- [Privacy policy](https://policies.google.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 28.3** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 19.0 |
+| Contract governance | 22.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 34.2 |
+
+**Agent readiness 23.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/google-patents/](https://apis.io/providers/google-patents/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Google Patents: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/google-patents/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
